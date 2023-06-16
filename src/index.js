@@ -1,13 +1,5 @@
 "use strict";
 
-const cors = require("cors");
-app.use(
-  cors({
-    origin: "https://e-commerc-zm9y.onrender.com",
-    methods: ["GET", "POST", "DELETE", "UPDATE", "PUT", "PATCH"],
-  })
-);
-
 module.exports = {
   /**
    * An asynchronous register function that runs before
